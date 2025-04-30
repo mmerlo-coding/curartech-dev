@@ -1,30 +1,51 @@
 import Link from "next/link";
+import { FiCalendar } from "react-icons/fi";
+
+const benefits = [
+  {
+    title: "73% de los usuarios",
+    description:
+      "Prefieren usar un chatbot debido a las respuestas mas rapidas que reciben",
+  },
+  {
+    title: "87.2% de los consumidores",
+    description:
+      "Le dan un rating a sus conversaciones con chatbots como neutral o positivas",
+  },
+  {
+    title: "3x mas rapido",
+    description:
+      "Los chatbots en promedio tienen tiempos de respuesta 3x veces mas rapidos que los agentes de soporte o ventas humanos",
+  },
+  {
+    title: "8% en ganancias",
+    description:
+      "Los restaurantes que implementan chatbots han visto un aumento de ganancias de 8% en promedio, y reducido sus costos en un 30%",
+  },
+];
 
 const CallToAction = () => {
   return (
-    <section className="relative z-10 overflow-hidden bg-primary py-20 lg:py-[115px]">
-      <div className="container mx-auto">
-        <div className="relative overflow-hidden">
-          <div className="-mx-4 flex flex-wrap items-stretch">
-            <div className="w-full px-4">
-              <div className="mx-auto max-w-[570px] text-center">
-                <h2 className="mb-2.5 text-3xl font-bold text-white md:text-[38px] md:leading-[1.44]">
-                  <span>
-                    Aun tienes dudas de que esto puede ser bueno para tu
-                    negocio?
-                  </span>
-                </h2>
-
-                <Link
-                  href="/"
-                  className="inline-block rounded-md border border-transparent bg-secondary px-7 py-3 text-base font-medium text-white transition hover:bg-[#0BB489]"
-                >
-                  Agendar demo para aclarar tus dudas
-                </Link>
-              </div>
+    <section className="lg:py-[80pxz ] relative z-10 overflow-hidden bg-primary py-20">
+      <div className="container flex flex-col items-center justify-center gap-8 px-4">
+        <div className="mb-12 grid grid-cols-1 items-center justify-center gap-4 md:grid-cols-2 lg:mb-0">
+          {benefits.map((benefit) => (
+            <div
+              className="h-[200px] rounded-md border border-white bg-transparent p-8 text-white"
+              key={benefit.title}
+            >
+              <h3 className="text-2xl font-bold">{benefit.title}</h3>
+              <p className="text-white">{benefit.description}</p>
             </div>
-          </div>
+          ))}
         </div>
+        <Link
+          href="#contact"
+          className="flex w-fit items-center gap-2 rounded-md bg-white px-6 py-[14px] text-base font-medium text-dark transition duration-300 ease-in-out hover:bg-white/[0.12] hover:text-white"
+        >
+          Agendar Demo
+          <FiCalendar />
+        </Link>
       </div>
       <div>
         <span className="absolute left-0 top-0">

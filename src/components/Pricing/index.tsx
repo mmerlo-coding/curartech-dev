@@ -5,19 +5,33 @@ import PricingBox from "./PricingBox";
 const pricingData = [
   {
     id: 1,
-    name: "Starter",
-    price: 10,
-    unit_amount: 1000,
-    nickname: "Starter",
-    offers: ["1000 messages", "1000 emails", "1000 sms"],
+    name: "Chatbot con IA - BASIC",
+    price: 97,
+    unit_amount: 9700,
+    nickname: "Standard",
+    offers: [
+      "Chatbot disponible 24/7",
+      "Integracion con WhatsApp, SMS e Email",
+      "Agendamiento de citas y manejo de calendario",
+      "Cierre de ventas o filtrar clientes potenciales",
+      "Manejo de preguntas frecuentes",
+      "Creacion de contactos nuevos",
+      "Inbox unificado para todas tus conversaciones",
+    ],
   },
   {
     id: 2,
-    name: "Pro",
-    price: 20,
-    unit_amount: 2000,
-    nickname: "Pro",
-    offers: ["1000 messages", "1000 emails", "1000 sms"],
+    name: "Chatbot con IA - PREMIUM",
+    price: 297,
+    unit_amount: 29700,
+    nickname: "Premium",
+    offers: [
+      "Todo lo incluido en el plan Standard",
+      "Manejo y optimizacion de Google my business para mejor visibilidad y posicionamiento en buscadores",
+      "1 website/Funnel de ventas para tu negocio",
+      "Creacion de automatizaciones customizadas para tu negocio",
+      "CRM para gestionar tus clientes y manejar pipelines",
+    ],
   },
 ];
 
@@ -30,9 +44,9 @@ const Pricing = () => {
       <div className="container">
         <div className="mb-[60px]">
           <SectionTitle
-            subtitle="Pricing Table"
-            title="Our Pricing Plan"
-            paragraph="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
+            subtitle="Precios"
+            title="Nuestros precios"
+            paragraph="Nuestros precios son muy competitivos y se ajustan a las necesidades de tu negocio."
             center
           />
         </div>

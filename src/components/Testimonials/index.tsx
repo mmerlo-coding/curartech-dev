@@ -5,30 +5,30 @@ import SingleTestimonial from "./SingleTestimonial";
 const testimonialData: Testimonial[] = [
   {
     id: 1,
-    name: "Sabo Masties",
-    designation: "Founder @ Rolex",
+    name: "Yolfrank Merlo",
+    designation: "Fundador @ sersasuperficies.cl",
     content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
+      "Pude reducir el tiempo en el que mis clientes reciben la información de mis productos y servicios, lo que me ha permitido aumentar mis ventas y tambien, mejorar la experiencia de usuario.",
     image: "/images/testimonials/author-01.png",
     star: 5,
   },
   {
     id: 2,
-    name: "Margin Gesmu",
-    designation: "Founder @ UI Hunter",
+    name: "Margin Gesmundo",
+    designation: "Fundador @ UI Hunter",
     content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
+      "Hace tiempo que ya no me preocupo de agendar citas, ahora mis clientes pueden agendar su cita por si mismos.",
     image: "/images/testimonials/author-02.png",
-    star: 5,
+    star: 4,
   },
   {
     id: 3,
     name: "William Smith",
-    designation: "Founder @ Trorex",
+    designation: "Fundador @ Trorex",
     content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
+      "Mis ventas aumentaron un 30% gracias a la Grubbit, ahora puedo ofrecer un servicio mas personalizado a mis clientes y enfocarme en lo que realmente importa, mi restaurante.",
     image: "/images/testimonials/author-03.png",
-    star: 5,
+    star: 4.5,
   },
 ];
 
@@ -37,14 +37,14 @@ const Testimonials = () => {
     <section className="bg-gray-1 py-20 dark:bg-dark-2 md:py-[120px]">
       <div className="container px-4">
         <SectionTitle
-          subtitle="Testimonials"
-          title="What our Client Say"
-          paragraph="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
+          subtitle="Testimonios"
+          title="Lo que dicen nuestros clientes"
+          paragraph="Nuestros clientes nos han dejado testimonios de su experiencia con nosotros."
           width="640px"
           center
         />
 
-        <div className="mt-[60px] flex flex-wrap lg:mt-20 gap-y-8">
+        <div className="mt-[60px] flex flex-wrap gap-y-8 lg:mt-20">
           {testimonialData.map((testimonial, i) => (
             <SingleTestimonial key={i} testimonial={testimonial} />
           ))}

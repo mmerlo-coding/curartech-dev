@@ -39,59 +39,25 @@ const Header = () => {
         }`}
       >
         <div className="container">
-          <div className="relative -mx-4 flex flex-col items-center justify-between md:flex-row">
-            <div className="w-48 max-w-full px-4">
-              <Link
-                href="/"
-                className={`navbar-logo block w-full ${
-                  sticky ? "py-2" : "py-5"
-                } `}
-              >
-                {pathUrl !== "/" ? (
-                  <>
-                    <Image
-                      src={`/images/logo/logo.svg`}
-                      alt="logo"
-                      width={240}
-                      height={30}
-                      className="header-logo w-full dark:hidden"
-                    />
-                    <Image
-                      src={`/images/logo/logo-white.svg`}
-                      alt="logo"
-                      width={240}
-                      height={30}
-                      className="header-logo hidden w-full dark:block"
-                    />
-                  </>
-                ) : (
-                  <>
-                    <Image
-                      src={"/images/logo/logo-white.svg"}
-                      alt="logo"
-                      width={140}
-                      height={30}
-                      className="header-logo w-full dark:hidden"
-                    />
-                    <Image
-                      src={"/images/logo/logo-white.svg"}
-                      alt="logo"
-                      width={140}
-                      height={30}
-                      className="header-logo hidden w-full dark:block"
-                    />
-                  </>
-                )}
+          <div className="relative flex flex-row items-center justify-between p-2">
+            <div>
+              <Link href="/" className="navbar-logo block w-full">
+                <Image
+                  src={"/images/logo/FoodBit_2.png"}
+                  alt="logo"
+                  width={120}
+                  height={30}
+                  className="header-logo w-full"
+                />
               </Link>
             </div>
             <div className="flex items-center justify-between gap-2 lg:pr-0">
               <Link
-                href="https://github.com/nextjsTemplates/play-nextjs"
-                target="_blank"
+                href="#contact"
                 className="flex items-center gap-2 rounded-md bg-white/[0.12] p-4 text-base font-medium text-white transition duration-300 ease-in-out hover:bg-white hover:text-dark"
               >
-                <span>Agendar demo</span>
-                <FiCalendar size={20} />
+                <span>Agendar Demo</span>
+                <FiCalendar size={20} className="hidden md:block" />
               </Link>
               {/* theme toggler */}
               <button
