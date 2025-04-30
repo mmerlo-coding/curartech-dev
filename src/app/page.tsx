@@ -31,7 +31,7 @@ export default function Home() {
       <Script
         src="https://widgets.leadconnectorhq.com/loader.js"
         data-resources-url="https://widgets.leadconnectorhq.com/chat-widget/loader.js"
-        data-widget-id="681026ace15c38559a636bcb"
+        data-widget-id={process.env.GHL_CALENDAR_ID}
         strategy="afterInteractive"
       />
     </main>
