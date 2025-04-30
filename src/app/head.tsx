@@ -1,11 +1,11 @@
 export default function Head() {
   return (
     <>
-      <title>Play Next.js - SaaS Starter Kit and Boilerplate for Next.js</title>
+      <title>FoodBit - Automatiza tu restaurante con IA</title>
       <meta content="width=device-width, initial-scale=1" name="viewport" />
       <meta
         name="description"
-        content="This SaaS Boilerplate and Starter Kit for Next.js is designed specifically for SaaS startups. It's a free resource complete with all the necessary integrations, pages, and components you require to build and launch a comprehensive SaaS website with robust features."
+        content="FoodBit es un chatbot con IA para restaurantes que te permite automatizar tus procesos y aumentar tus ventas."
       />
       <link rel="icon" href="/images/favicon.ico" />
     </>

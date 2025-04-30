@@ -45,11 +45,6 @@ export default function RootLayout({
             <ScrollToTop />
           </ThemeProvider>
         )}
-        <script
-          src="https://widgets.leadconnectorhq.com/loader.js"
-          data-resources-url="https://widgets.leadconnectorhq.com/chat-widget/loader.js"
-          data-widget-id="681026ace15c38559a636bcb"
-        ></script>
       </body>
     </html>
   );
