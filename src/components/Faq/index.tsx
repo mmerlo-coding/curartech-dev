@@ -25,7 +25,7 @@ const Faq = () => {
             />
             <SingleFaq
               question="¿Tienen mas servicios aparte del chatbot?"
-              answer="Si, tenemos mas servicios aparte del chatbot, como por ejemplo, la creacion de paginas web, automatizaciones de procesos como email marketing y sms marketing, manejo de reputacion con Google My Business, etc."
+              answer="Si, tenemos mas servicios aparte del chatbot, como por ejemplo, la creacion de paginas web, automatizaciones de procesos como email marketing, manejo de reputacion con Google My Business, etc."
             />
           </div>
 

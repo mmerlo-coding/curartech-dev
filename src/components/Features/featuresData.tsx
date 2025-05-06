@@ -40,7 +40,7 @@ const featuresData: Feature[] = [
     ),
     title: "Chatbot con IA",
     paragraph:
-      "Un asistente virtual entrenado con tus guías, que responde FAQs, agenda citas, califica leads y se integra con WhatsApp, SMS y Email.",
+      "Un asistente virtual entrenado con tus guías, que responde FAQs, agenda citas, califica leads y se integra con WhatsApp y Email.",
     image: "/images/about/chatbot-demo.png",
   },
   {
@@ -93,7 +93,7 @@ const featuresData: Feature[] = [
     ),
     title: "Maneja todos tus clientes potenciales en un solo lugar",
     paragraph:
-      "Gestiona todo en un solo lugar: inbox universal, SMS, chats en vivo, WhatsApp, pipelines y app móvil para estar siempre conectado.",
+      "Gestiona todo en un solo lugar: inbox universal, chats en vivo, WhatsApp, pipelines y app móvil para estar siempre conectado.",
     image: "/images/about/inbox-demo.png",
   },
   {

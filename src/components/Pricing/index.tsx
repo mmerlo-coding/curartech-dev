@@ -11,7 +11,7 @@ const pricingData = [
     nickname: "Standard",
     offers: [
       "Chatbot personalizado para tu negocio, con IA y automatizaciones",
-      "Integracion con WhatsApp, SMS y Email",
+      "Integracion con WhatsApp y Email",
       "Calendario de citas y manejo de consultas y agendamientos",
       "CRM con inbox unificado para todas tus conversaciones y manejo de leads",
       "App movil para atender a tus clientes y gestionar tus consultas desde cualquier lugar",
