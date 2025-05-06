@@ -11,9 +11,9 @@ import { Metadata } from "next";
 import Script from "next/script";
 
 export const metadata: Metadata = {
-  title: "FoodBit - Automatiza tu restaurante con IA",
+  title: "Curartech - Agencia de IA para medicos",
   description:
-    "FoodBit es un chatbot con IA para restaurantes que te permite automatizar tus procesos y aumentar tus ventas.",
+    "Curartech es una agencia de IA para medicos que te permite automatizar tus procesos y reducir costos en el proceso.",
 };
 
 export default function Home() {

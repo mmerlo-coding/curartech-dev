@@ -43,7 +43,7 @@ const Header = () => {
             <div>
               <Link href="/" className="navbar-logo block w-full">
                 <Image
-                  src={"/images/logo/FoodBit_2.png"}
+                  src={"/images/logo/Curartech-logo-removebg.png"}
                   alt="logo"
                   width={120}
                   height={30}

@@ -1,11 +1,11 @@
 export default function Head() {
   return (
     <>
-      <title>FoodBit - Automatiza tu restaurante con IA</title>
+      <title>CURARTECH - Automatiza tu practica medica con IA</title>
       <meta content="width=device-width, initial-scale=1" name="viewport" />
       <meta
         name="description"
-        content="FoodBit es un chatbot con IA para restaurantes que te permite automatizar tus procesos y aumentar tus ventas."
+        content="Curartech es una plataforma de IA para medicos que te permite automatizar tus procesos y reducir costos en el proceso."
       />
       <link rel="icon" href="/images/favicon.ico" />
     </>
