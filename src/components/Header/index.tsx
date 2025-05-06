@@ -43,11 +43,11 @@ const Header = () => {
             <div>
               <Link href="/" className="navbar-logo block w-full">
                 <Image
-                  src={"/images/logo/Curartech-logo-removebg.png"}
+                  src={"/images/logo/Curartech_logo_removebg-preview.png"}
                   alt="logo"
-                  width={120}
-                  height={30}
-                  className="header-logo w-full"
+                  width={160}
+                  height={100}
+                  className="header-logo"
                 />
               </Link>
             </div>
@@ -63,7 +63,7 @@ const Header = () => {
               <button
                 aria-label="theme toggler"
                 onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
-                className="flex h-8 w-8 items-center justify-center text-body-color duration-300 dark:text-white"
+                className="md:flex h-8 w-8 items-center justify-center text-body-color duration-300 dark:text-white hidden"
               >
                 <span>
                   <svg

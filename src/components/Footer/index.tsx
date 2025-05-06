@@ -44,7 +44,7 @@ const Footer = () => {
                     target="_blank"
                     className="text-gray-1 hover:underline"
                   >
-                    FoodBit, 2025
+                    Curartech, 2025
                   </Link>
                 </p>
               </div>

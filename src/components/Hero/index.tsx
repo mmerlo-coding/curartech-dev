@@ -18,12 +18,12 @@ const Hero = () => {
                 data-wow-delay=".2s"
               >
                 <h1 className="mb-6 text-3xl font-bold leading-snug text-white sm:text-4xl sm:leading-snug lg:text-5xl lg:leading-[1.2]">
-                  Automatiza tareas de tu restaurant con Grubbit, da un mejor
-                  servicio a tus clientes y ahorra dinero al mismo tiempo!
+                  Transforma tu Consulta de Medicina con Tecnología Avanzada,
+                  ahorra tiempo y dinero en el proceso.
                 </h1>
                 <p className="mx-auto mb-9 max-w-[600px] text-base text-white sm:leading-[1.44]">
-                  Nuestro chatbot usa IA como gasolina, no duerme, no se va de
-                  vacaciones, no pide aumento y trabaja las 24 horas del día.
+                  Automatiza, atrae más clientes potenciales y gestiona tu
+                  negocio como nunca antes con nuestras soluciones de IA.
                 </p>
                 <ul className="mb-10 flex flex-wrap items-center justify-center gap-5">
                   <li>
@@ -31,7 +31,7 @@ const Hero = () => {
                       href="#contact"
                       className="inline-flex items-center justify-center rounded-md bg-white px-7 py-[14px] text-center text-base font-medium text-dark shadow-1 transition duration-300 ease-in-out hover:bg-gray-2"
                     >
-                      Ver como funciona
+                      Agenda tu Demo Gratis Hoy
                     </Link>
                   </li>
                   <li>
@@ -45,9 +45,8 @@ const Hero = () => {
                   </li>
                 </ul>
                 <p className="text-center text-base font-light text-white/60 ">
-                  Empresas como Burger King, Taco Bell, Starbucks, entre otras,
-                  utilizan chatbots para incrementar sus ventas y ahorrar dinero
-                  al mismo tiempo.
+                  ¡Más de 20 profesionales ya transformaron su práctica con
+                  nosotros!
                 </p>
               </div>
             </div>

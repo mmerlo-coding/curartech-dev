@@ -26,7 +26,7 @@ const testimonialData: Testimonial[] = [
     name: "William Smith",
     designation: "Fundador @ Trorex",
     content:
-      "Mis ventas aumentaron un 30% gracias a la Grubbit, ahora puedo ofrecer un servicio mas personalizado a mis clientes y enfocarme en lo que realmente importa, mi restaurante.",
+      "Mis ventas aumentaron un 30% gracias a Curartech, ahora puedo ofrecer un servicio mas personalizado a mis clientes y enfocarme en lo que realmente importa, mi consulta medica.",
     image: "/images/testimonials/author-03.png",
     star: 4.5,
   },

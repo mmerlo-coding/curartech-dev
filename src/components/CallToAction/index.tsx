@@ -3,24 +3,24 @@ import { FiCalendar } from "react-icons/fi";
 
 const benefits = [
   {
-    title: "73% de los usuarios",
+    title: "87% de los clientes potenciales",
     description:
-      "Prefieren usar un chatbot debido a las respuestas mas rapidas que reciben",
+      "Prefieren agendar en línea, sin necesidad de levantar el telefono o esperar que un agente este disponible, con nuestro sistema de agendamientos automaticos esto no sera un problema.",
   },
   {
-    title: "87.2% de los consumidores",
+    title: "80% más de reseñas con nuestra optimización de Google My Business.",
     description:
-      "Le dan un rating a sus conversaciones con chatbots como neutral o positivas",
+      "Los negocios que optimizar su Google My Business tienen un 126% mas de trafico a su website, y un 35% mas de conversiones",
   },
   {
     title: "3x mas rapido",
     description:
-      "Los chatbots en promedio tienen tiempos de respuesta 3x veces mas rapidos que los agentes de soporte o ventas humanos",
+      "Los chatbots en promedio tienen tiempos de respuesta 3x veces mas rapidos que los agentes de soporte o ventas humanos. Asegurate que los visitantes de tu website tengan respuestas rapidas y eficientes.",
   },
   {
-    title: "8% en ganancias",
+    title: "30% en promedio de reducción de costos de adquisición de clientes",
     description:
-      "Los restaurantes que implementan chatbots han visto un aumento de ganancias de 8% en promedio, y reducido sus costos en un 30%",
+      "Al automatizar tus procesos de atención, puedes reducir tus costos y mejorar la experiencia de tus clientes potenciales.",
   },
 ];
 
@@ -43,7 +43,7 @@ const CallToAction = () => {
           href="#contact"
           className="flex w-fit items-center gap-2 rounded-md bg-white px-6 py-[14px] text-base font-medium text-dark transition duration-300 ease-in-out hover:bg-white/[0.12] hover:text-white"
         >
-          Agendar Demo
+          Empieza a Crecer – Agenda tu Demo hoy!
           <FiCalendar />
         </Link>
       </div>

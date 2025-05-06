@@ -10,7 +10,7 @@ const CircleSvg = () => {
       >
         <div className="mt-8">
           <Image
-            src="/images/hero/demo-hero.png"
+            src="/images/about/chatbot-demo.png"
             alt="hero"
             className="mx-auto max-w-full rounded-t-xl rounded-tr-xl"
             width={845}

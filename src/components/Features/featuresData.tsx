@@ -17,10 +17,10 @@ const featuresData: Feature[] = [
         />
       </svg>
     ),
-    title: "Facil de entrenar y customizar",
+    title: "Sitios Web de Alta Conversión",
     paragraph:
-      "Entrenamos tu chatbot usando tu sitio web, Grubbit usa estos datos para tener respuestas certeras y personalizadas.",
-    image: "/images/about/customizations.png",
+      "Elige entre 5 plantillas personalizables, optimizadas para atraer y convertir clientes potenciales al instante. Estos website estan probados en el mercado y listos para usar.",
+    image: "/images/about/sites-demo.png",
   },
   {
     id: 2,
@@ -38,10 +38,10 @@ const featuresData: Feature[] = [
         />
       </svg>
     ),
-    title: "Puede tomar acciones",
+    title: "Chatbot con IA",
     paragraph:
-      "Nuestros chatbots pueden tomar acciones basadas en tus reglas de negocio. Como crear contactos, activar flujos de trabajo/automatizaciones, y más.",
-    image: "/images/about/trainingbot-3.png",
+      "Un asistente virtual entrenado con tus guías, que responde FAQs, agenda citas, califica leads y se integra con WhatsApp, SMS y Email.",
+    image: "/images/about/chatbot-demo.png",
   },
   {
     id: 3,
@@ -91,10 +91,10 @@ const featuresData: Feature[] = [
         />
       </svg>
     ),
-    title: "Modelos de IA poderosos",
+    title: "Maneja todos tus clientes potenciales en un solo lugar",
     paragraph:
-      "Usamos los modelos de IA más potentes para asegurar que tu chatbot esté siempre actualizado y listo para ayudar a tus clientes.",
-    image: "/images/about/demo-image.png",
+      "Gestiona todo en un solo lugar: inbox universal, SMS, chats en vivo, WhatsApp, pipelines y app móvil para estar siempre conectado.",
+    image: "/images/about/inbox-demo.png",
   },
   {
     id: 4,
@@ -124,10 +124,31 @@ const featuresData: Feature[] = [
         />
       </svg>
     ),
-    title: "Gestión de calendario/citas",
+    title: "Optimización de Google My Business",
     paragraph:
-      "El bot se integra con Google Calendar y otras herramientas para ayudarte a gestionar tus citas y programar.",
-    image: "/images/about/trainingbot-calendario.png",
+      "Automatiza reseñas con formularios y flujos de trabajo, aumentando tu visibilidad y confianza online. Los negocios con un perfil de Google my business optimizado, generan 126% mas visitas a su pagina web.",
+    image: "/images/about/gmb-demo.png",
+  },
+  {
+    id: 5,
+    icon: (
+      <svg
+        width="36"
+        height="36"
+        viewBox="0 0 36 36"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M30.5998 1.01245H5.39981C2.98105 1.01245 0.956055 2.9812 0.956055 5.4562V30.6562C0.956055 33.075 2.9248 35.0437 5.39981 35.0437H30.5998C33.0186 35.0437 34.9873 33.075 34.9873 30.6562V5.39995C34.9873 2.9812 33.0186 1.01245 30.5998 1.01245ZM5.39981 3.48745H30.5998C31.6123 3.48745 32.4561 4.3312 32.4561 5.39995V11.1937H3.4873V5.39995C3.4873 4.38745 4.38731 3.48745 5.39981 3.48745ZM3.4873 30.6V13.725H23.0623V32.5125H5.39981C4.38731 32.5125 3.4873 31.6125 3.4873 30.6ZM30.5998 32.5125H25.5373V13.725H32.4561V30.6C32.5123 31.6125 31.6123 32.5125 30.5998 32.5125Z"
+          fill="white"
+        />
+      </svg>
+    ),
+    title: "Gestión de Calendario",
+    paragraph:
+      "Calendario completo con enlaces compartibles, integrable con tu chatbot, Google Calendar y Outlook para citas sin complicaciones.",
+    image: "/images/about/calendario-demo.png",
   },
 ];
 

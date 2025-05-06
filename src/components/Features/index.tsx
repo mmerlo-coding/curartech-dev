@@ -9,8 +9,8 @@ const Features = () => {
       <div className="container flex flex-col gap-8">
         <SectionTitle
           subtitle="Características"
-          title="Características principales de nuestro FoodBot"
-          paragraph="Nuestros chatbots son capaces de responder preguntas, tomar acciones y mucho más. 24 horas al día, 7 días a la semana. Sin descanso, ni aumentos de sueldo, ni vacaciones."
+          title="Características de nuestro sistema"
+          paragraph="Imagina una consulta llena de pacientes felices, con citas agendadas sin esfuerzo y un negocio que crece solo. Esto no es un sueño: es lo que logramos para medicos como tú con nuestras soluciones de IA y automatización. En CurarTech, te ofrecemos herramientas revolucionarias para destacar: sitios web de alta conversión, chatbots inteligentes, CRM todo-en-uno y más."
         />
 
         <div className="grid grid-cols-1 gap-8">

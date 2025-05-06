@@ -7,7 +7,7 @@ const Faq = () => {
       <div className="container">
         <SectionTitle
           subtitle="FAQ"
-          title="¿Alguna pregunta? Respuestas"
+          title="¿Tienes Dudas? Te Ayudamos"
           paragraph="Abajo te dejamos algunas de las preguntas mas frecuentes que nuestros clientes nos han hecho."
           width="640px"
           center
@@ -16,31 +16,31 @@ const Faq = () => {
         <div className="-mx-4 mt-[60px] flex flex-wrap lg:mt-20">
           <div className="w-full px-4 lg:w-1/2">
             <SingleFaq
-              question="¿Cuanto tiempo tarda en implementar el chatbot de IA en mi pagina web?"
-              answer="Entre 3-7 dias, dependiendo de que tan completo es el entrenamiento para tu Grubbit, tambien cuanto tiempo tome el reunir toda la informacion que necesitamos sobre tu negocio."
+              question="¿Cuanto tiempo demo la implementacion de su sistema de IA en mi pagina web?"
+              answer="Depende de si tu negocio necesita hacer un website o ya tienes uno. Si necesitas un website, el tiempo de implementacion puede variar entre 1-2 semanas. Si ya tienes un website, el tiempo de implementacion puede variar entre 3-5 dias."
             />
             <SingleFaq
               question="¿El bot puede responder preguntas en varios idiomas?"
-              answer="Si, el bot puede responder preguntas en varios idiomas, dependiendo de la configuracion de tu Grubbit, si el usuario escribe en ingles, el bot respondera en ingles, si el usuario escribe en español, el bot respondera en español."
+              answer="Si, el bot puede responder preguntas en varios idiomas, dependiendo de la configuracion de tu negocio, si el usuario escribe en ingles, el bot respondera en ingles, si el usuario escribe en español, el bot respondera en español."
             />
             <SingleFaq
               question="¿Tienen mas servicios aparte del chatbot?"
-              answer="Si, tenemos mas servicios aparte del chatbot, como por ejemplo, la creacion de paginas web, la creacion de tiendas online, la creacion de landing pages, automatizaciones de procesos, manejo de reputacion con Google My Business, etc."
+              answer="Si, tenemos mas servicios aparte del chatbot, como por ejemplo, la creacion de paginas web, automatizaciones de procesos como email marketing y sms marketing, manejo de reputacion con Google My Business, etc."
             />
           </div>
 
           <div className="w-full px-4 lg:w-1/2">
             <SingleFaq
               question="¿Que pasa si no tengo pagina web para mi negocio?"
-              answer="No hay problema, podemos crear una pagina web para tu negocio, te ofrecemos un servicio de creacion de pagina web, con la compra del plan PREMIUM."
+              answer="No hay problema, podemos crear una pagina web para tu negocio, te ofrecemos un servicio de creacion de pagina web, con la compra del plan PREMIUM. Tambien podemos integrar nuestras soluciones de IA directamente con tu Whatsapp para que todo el proceso se maneje directamente desde ahi. "
             />
             <SingleFaq
-              question="¿Que tan efectivo es el chatbot de IA para impulsar mi negocio?"
-              answer="Investigaciones sugieren que los chatbots de IA, especialmente los entrenados con información específica de la empresa, pueden transformar los negocios en LATAM. Por ejemplo, un estudio en un banco brasileño mostró que aumentaron las interacciones en un 2,350% y la resolución de problemas en un 19%, con una satisfacción del cliente de 3.9/5. También se proyecta una reducción de costos de hasta 30% en servicio al cliente."
+              question="¿Que tan efectivo es el uso de IA para impulsar mi negocio?"
+              answer="Investigaciones sugieren que los negocio que usa IA, especialmente los entrenados con información específica de la empresa, pueden transformar los negocios en LATAM. Por ejemplo, un estudio en un banco brasileño mostró que aumentaron las interacciones en un 2,350% y la resolución de problemas en un 19%, con una satisfacción del cliente de 3.9/5. También se proyecta una reducción de costos de hasta 30% en servicio al cliente."
             />
             <SingleFaq
-              question="¿Cuales son las ventajas de usar el chatbot de IA?"
-              answer="Puedes usarlo para responder preguntas de clientes 24/7, para agendar citas, para cerrar ventas o validar prospectos, puede iniciar automatizaciones que hayamos creado para ti, y mucho mas. Es basicamente un empleado mas pero que no duerme, no se va de vacaciones, y a una fraccion del precio de un empleado real."
+              question="¿Como pueden mis pacientes agendar automaticamente una consulta?"
+              answer="Con nuestro sistema de agendamientos automaticos, tus pacientes pueden agendar una consulta por si mismos, sin necesidad de llamar o esperar a que un agente este disponible. Simplemente deben escribirle al bot desde tu pagina web, o enviarte un mensaje a whatsapp, y el bot se encarga de agendar la cita desde ahi."
             />
           </div>
         </div>
