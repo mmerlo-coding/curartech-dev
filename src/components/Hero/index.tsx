@@ -44,10 +44,6 @@ const Hero = () => {
                     </Link>
                   </li>
                 </ul>
-                <p className="text-center text-base font-light text-white/60 ">
-                  ¡Más de 20 profesionales ya transformaron su práctica con
-                  nosotros!
-                </p>
               </div>
             </div>
           </div>
