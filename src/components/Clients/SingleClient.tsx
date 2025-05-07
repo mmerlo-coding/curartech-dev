@@ -9,14 +9,14 @@ const SingleClient = ({ client }: { client: Client }) => {
       <Link href={link} target="_blank" rel="nofollow noopner">
         <Image
           src={logo}
-          alt={title}
+          alt={`curartech - ${title}`}
           className="dark:hidden"
           width={140}
           height={40}
         />
         <Image
           src={logoWhite}
-          alt={title}
+          alt={`curartech - ${title}`}
           className="hidden dark:block"
           width={140}
           height={40}

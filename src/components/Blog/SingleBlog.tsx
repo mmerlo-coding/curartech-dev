@@ -12,7 +12,7 @@ const SingleBlog = ({ blog }: { blog: Blog }) => {
         <Link href={`/blogs/${slug}`} aria-label="blog cover" className="block">
           <Image
             src={coverImage!}
-            alt="image"
+            alt="curartech - articulo"
             className="w-full transition group-hover:rotate-6 group-hover:scale-125"
             width={408}
             height={272}

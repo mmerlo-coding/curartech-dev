@@ -44,7 +44,7 @@ const Header = () => {
               <Link href="/" className="navbar-logo block w-full">
                 <Image
                   src={"/images/logo/Curartech_logo_removebg-preview.png"}
-                  alt="logo"
+                  alt="curartech - company logo"
                   width={160}
                   height={100}
                   className="header-logo"
@@ -63,7 +63,7 @@ const Header = () => {
               <button
                 aria-label="theme toggler"
                 onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
-                className="md:flex h-8 w-8 items-center justify-center text-body-color duration-300 dark:text-white hidden"
+                className="hidden h-8 w-8 items-center justify-center text-body-color duration-300 dark:text-white md:flex"
               >
                 <span>
                   <svg

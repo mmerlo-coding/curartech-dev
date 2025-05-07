@@ -9,6 +9,28 @@ import "../styles/prism-vsc-dark-plus.css";
 import ToasterContext from "./api/contex/ToasetContex";
 import { useEffect, useState } from "react";
 import PreLoader from "@/components/Common/PreLoader";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Curartech - Automatiza tu practica de medicina",
+  description:
+    "Automatiza tu practica de medicina con Curartech, la plataforma de automatización para consultas médicas. Gestiona calendarios, chats, citas, pacientes, etc.",
+  keywords: [
+    "curartech",
+    "automatización para consultas médicas",
+    "marketing para consultas médicas",
+    "calendarios para doctores",
+    "chats para doctores",
+    "citas para doctores",
+    "pacientes para doctores",
+  ],
+  openGraph: {
+    title: "Curartech - Automatiza tu practica de medicina",
+    description:
+      "Automatiza tu practica de medicina con Curartech, la plataforma de automatización para consultas médicas. Gestiona calendarios, chats, citas, pacientes, etc.",
+    siteName: "Curartech",
+  },
+};
 
 export default function RootLayout({
   children,
@@ -18,17 +40,11 @@ export default function RootLayout({
   const [loading, setLoading] = useState<boolean>(true);
 
   useEffect(() => {
-    setTimeout(() => setLoading(false), 1000);
+    setTimeout(() => setLoading(false), 200);
   }, []);
 
   return (
-    <html suppressHydrationWarning={true} className="!scroll-smooth" lang="en">
-      {/*
-        <head /> will contain the components returned by the nearest parent
-        head.js. Find out more at https://beta.nextjs.org/docs/api-reference/file-conventions/head
-      */}
-      <head />
-
+    <html suppressHydrationWarning={true} className="!scroll-smooth" lang="es">
       <body>
         {loading ? (
           <PreLoader />

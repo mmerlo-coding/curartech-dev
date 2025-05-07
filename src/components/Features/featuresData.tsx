@@ -40,7 +40,7 @@ const featuresData: Feature[] = [
     ),
     title: "Chatbot con IA",
     paragraph:
-      "Un asistente virtual entrenado con tus guías, que responde FAQs, agenda citas, califica leads y se integra con WhatsApp y Email.",
+      "Un asistente virtual entrenado con tus guías, que responde FAQs, agenda citas, califica leads y se integra con WhatsApp y Email para responder cualquier mensaje que te llegue por alguno de esos medios, de manera automatizada.",
     image: "/images/about/chatbot-demo.png",
   },
   {
@@ -93,7 +93,7 @@ const featuresData: Feature[] = [
     ),
     title: "Maneja todos tus clientes potenciales en un solo lugar",
     paragraph:
-      "Gestiona todo en un solo lugar: inbox universal, chats en vivo, WhatsApp, pipelines y app móvil para estar siempre conectado.",
+      "Gestiona todo en un solo lugar: inbox universal, chats en vivo, WhatsApp, pipelines y app móvil para estar siempre conectado. Cualquier mensaje que te llegue por WhatsApp, Email, Facebook, Instagram, etc., se guardará en tu inbox para que puedas responderlo lo antes posible.",
     image: "/images/about/inbox-demo.png",
   },
   {
@@ -147,7 +147,7 @@ const featuresData: Feature[] = [
     ),
     title: "Gestión de Calendario",
     paragraph:
-      "Calendario completo con enlaces compartibles, integrable con tu chatbot, Google Calendar y Outlook para citas sin complicaciones.",
+      "Calendario completo con enlaces compartibles, integrable con tu chatbot, Google Calendar y Outlook para citas sin complicaciones. Puede usarlo todo tu equipo y cada consulta ser asignada de manera ordernada y automatizada entre todo tu equipo de trabajo.",
     image: "/images/about/calendario-demo.png",
   },
 ];

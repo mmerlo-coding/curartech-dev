@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+  
+Sitemap: https://www.curartech.com/sitemap.xml

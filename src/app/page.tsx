@@ -7,14 +7,7 @@ import Features from "@/components/Features";
 import Hero from "@/components/Hero";
 import Pricing from "@/components/Pricing";
 import Testimonials from "@/components/Testimonials";
-import { Metadata } from "next";
 import Script from "next/script";
-
-export const metadata: Metadata = {
-  title: "Curartech - Agencia de IA para medicos",
-  description:
-    "Curartech es una agencia de IA para medicos que te permite automatizar tus procesos y reducir costos en el proceso.",
-};
 
 export default function Home() {
   return (

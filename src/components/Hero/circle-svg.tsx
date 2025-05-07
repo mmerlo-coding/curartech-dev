@@ -11,7 +11,7 @@ const CircleSvg = () => {
         <div className="mt-8">
           <Image
             src="/images/about/chatbot-demo.png"
-            alt="hero"
+            alt="curartech - chatbot demo"
             className="mx-auto max-w-full rounded-t-xl rounded-tr-xl"
             width={845}
             height={316}

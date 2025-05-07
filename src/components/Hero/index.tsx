@@ -18,8 +18,8 @@ const Hero = () => {
                 data-wow-delay=".2s"
               >
                 <h1 className="mb-6 text-3xl font-bold leading-snug text-white sm:text-4xl sm:leading-snug lg:text-5xl lg:leading-[1.2]">
-                  Transforma tu Consulta de Medicina con Tecnología Avanzada,
-                  ahorra tiempo y dinero en el proceso.
+                  Con Curartech, transforma tu Consulta de Medicina con
+                  Tecnología Avanzada, ahorra tiempo y dinero en el proceso.
                 </h1>
                 <p className="mx-auto mb-9 max-w-[600px] text-base text-white sm:leading-[1.44]">
                   Automatiza, atrae más clientes potenciales y gestiona tu

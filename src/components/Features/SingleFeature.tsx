@@ -21,7 +21,12 @@ const SingleFeature = ({ feature }: { feature: Feature }) => {
         </p>
       </div>
       <div className="relative h-[400px] w-full rounded-[12px] shadow-md md:w-1/2">
-        <Image src={image} alt={title} fill className="object-contain" />
+        <Image
+          src={image}
+          alt={`curartech - ${title}`}
+          fill
+          className="object-contain"
+        />
       </div>
     </div>
   );

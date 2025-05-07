@@ -11,7 +11,7 @@ const NotFound = () => {
             <div className="relative mx-auto aspect-[129/138] max-w-[357px] text-center">
               <Image
                 src="/images/404.svg"
-                alt="image"
+                alt="image" 
                 fill
                 className="mx-auto max-w-full dark:hidden"
               />
