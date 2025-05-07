@@ -8,22 +8,27 @@ import ToasterContext from "./api/contex/ToasetContex";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Curartech - Automatiza tu practica de medicina",
+  title:
+    "Curartech - Servicios de automatizacion y marketing para consultorios medicos, odontologicos y quiropracticos",
   description:
-    "Automatiza tu practica de medicina con Curartech, la plataforma de automatización para consultas médicas. Gestiona calendarios, chats, citas, pacientes, etc.",
+    "Servicios de automatizacion y marketing para consultorios medicos, odontologicos y quiropracticos con Curartech, la plataforma de automatización para consultas médicas. Gestiona calendarios, chats, citas, pacientes, etc.",
   keywords: [
     "curartech",
-    "automatización para consultas médicas",
-    "marketing para consultas médicas",
+    "Soluciones automatizadas para consultorios médicos",
+    "marketing para consultorios médicos",
     "calendarios para doctores",
-    "chats para doctores",
-    "citas para doctores",
-    "pacientes para doctores",
+    "chatbot de IA para doctores",
+    "agendamiento de consultas automatizadas",
+    "optimizar de Google my business para mi negocio",
+    "automatización de citas para consultorios médicos",
+    "automatización de citas para consultorios odontologicos",
+    "automatización de citas para consultorios quiroprácticos",
   ],
   openGraph: {
-    title: "Curartech - Automatiza tu practica de medicina",
+    title:
+      "Curartech - Servicios de automatizacion y marketing para consultorios medicos, odontologicos y quiropracticos",
     description:
-      "Automatiza tu practica de medicina con Curartech, la plataforma de automatización para consultas médicas. Gestiona calendarios, chats, citas, pacientes, etc.",
+      "Servicios de automatizacion y marketing para consultorios medicos, odontologicos y quiropracticos con Curartech, la plataforma de automatización para consultas médicas. Gestiona calendarios, chats, citas, pacientes, etc.",
     siteName: "Curartech",
   },
 };
