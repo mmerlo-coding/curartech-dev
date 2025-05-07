@@ -2,7 +2,10 @@ import SectionTitle from "../Common/SectionTitle";
 
 const Contact = () => {
   return (
-    <section id="contact" className="container relative h-[1000px]">
+    <section
+      id="contact"
+      className="container relative h-[1500px] md:h-[1000px]"
+    >
       <SectionTitle
         subtitle="Contacto"
         title="Agenda un demo con nosotros!"
