@@ -20,8 +20,8 @@ const pricingData = [
   {
     id: 2,
     name: "CURARTECH - Premium personalizado",
-    price: 297,
-    unit_amount: 29700,
+    price: 197,
+    unit_amount: 19700,
     nickname: "Premium",
     offers: [
       "Todo lo incluido en el plan Standard",
