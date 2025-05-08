@@ -5,30 +5,18 @@ import PricingBox from "./PricingBox";
 const pricingData = [
   {
     id: 1,
-    name: "CURARTECH - Basico",
+    name: "PLAN COMPLETO",
     price: 97,
     unit_amount: 9700,
-    nickname: "Standard",
+    nickname: "Premium",
     offers: [
       "Chatbot personalizado para tu negocio, con IA y automatizaciones",
       "Integracion con WhatsApp y Email",
       "Calendario de citas y manejo de consultas y agendamientos",
       "CRM con inbox unificado para todas tus conversaciones y manejo de leads",
       "App movil para atender a tus clientes y gestionar tus consultas desde cualquier lugar",
-    ],
-  },
-  {
-    id: 2,
-    name: "CURARTECH - Premium personalizado",
-    price: 197,
-    unit_amount: 19700,
-    nickname: "Premium",
-    offers: [
-      "Todo lo incluido en el plan Standard",
-      "Desarrollo de un website personalizado para tu negocio",
-      "Creacion de automatizaciones customizadas para tu negocio",
-      "Integracion con Google, Facebook e Instagram ads, para manejar tus campañas dentro de nuestro sistema",
       "Optimizacion de Google my business para mejor visibilidad y posicionamiento en buscadores",
+      "Desarrollo de un website personalizado para tu negocio",
     ],
   },
 ];
