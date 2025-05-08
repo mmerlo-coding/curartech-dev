@@ -8,10 +8,9 @@ import ToasterContext from "./api/contex/ToasetContex";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title:
-    "Curartech - Servicios de automatizacion y marketing para consultorios medicos, odontologicos y quiropracticos",
+  title: "Chatbot con IA para consultorios medicos",
   description:
-    "Servicios de automatizacion y marketing para consultorios medicos, odontologicos y quiropracticos con Curartech, la plataforma de automatización para consultas médicas. Gestiona calendarios, chats, citas, pacientes, etc.",
+    "Chatbot con IA para consultorios medicos en Curartech, la plataforma de automatización para consultas médicas. Gestiona calendarios, chats, citas, pacientes, etc.",
   keywords: [
     "curartech",
     "Soluciones automatizadas para consultorios médicos",
@@ -25,10 +24,9 @@ export const metadata: Metadata = {
     "automatización de citas para consultorios quiroprácticos",
   ],
   openGraph: {
-    title:
-      "Curartech - Servicios de automatizacion y marketing para consultorios medicos, odontologicos y quiropracticos",
+    title: "Chatbot con IA para consultorios medicos",
     description:
-      "Servicios de automatizacion y marketing para consultorios medicos, odontologicos y quiropracticos con Curartech, la plataforma de automatización para consultas médicas. Gestiona calendarios, chats, citas, pacientes, etc.",
+      "Chatbot con IA para consultorios medicos con Curartech, la plataforma de automatización para consultas médicas. Gestiona calendarios, chats, citas, pacientes, etc.",
     siteName: "Curartech",
   },
 };
