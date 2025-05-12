@@ -27,19 +27,21 @@ const Pricing = () => {
       className="relative z-20 overflow-hidden bg-white pb-12 pt-20 dark:bg-dark lg:pb-[90px] lg:pt-[120px]"
     >
       <div className="container">
-        <div className="mb-[60px]">
-          <SectionTitle
-            subtitle="Precios"
-            title="Nuestros precios"
-            paragraph="Nuestros precios son muy competitivos y se ajustan a las necesidades de tu negocio."
-            center
-          />
-        </div>
-
-        <div className="-mx-4 flex flex-wrap justify-center">
-          {pricingData.map((product, i) => (
-            <PricingBox key={i} product={product} />
-          ))}
+        <div className="flex min-h-[600px] flex-col items-center justify-center gap-8 lg:flex-row">
+          <div className="flex w-full items-center lg:w-1/2">
+            <SectionTitle
+              subtitle="Precios"
+              title="Nuestros precios"
+              paragraph="Nuestros precios son muy competitivos y se ajustan a las necesidades de tu negocio."
+            />
+          </div>
+          <div className="flex w-full items-center justify-end lg:w-1/2">
+            <div className="w-full">
+              {pricingData.map((product, i) => (
+                <PricingBox key={i} product={product} />
+              ))}
+            </div>
+          </div>
         </div>
       </div>
     </section>

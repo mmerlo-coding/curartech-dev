@@ -5,30 +5,30 @@ import SingleTestimonial from "./SingleTestimonial";
 const testimonialData: Testimonial[] = [
   {
     id: 1,
-    name: "Yolfrank Merlo",
-    designation: "Fundador @ sersasuperficies.cl",
+    name: "Dr. Juan Pérez",
+    designation: "Clínica Salud Total",
     content:
-      "Pude reducir el tiempo en el que mis clientes reciben la información de mis productos y servicios, lo que me ha permitido aumentar mis ventas y tambien, mejorar la experiencia de usuario.",
+      "Desde que implementé CurarTech, mis pacientes pueden agendar citas fácilmente y mi consultorio opera de manera más eficiente.",
     image: "/images/testimonials/author-01.png",
     star: 5,
   },
   {
     id: 2,
-    name: "Margin Gesmundo",
-    designation: "Fundador @ UI Hunter",
+    name: "Dra. María González",
+    designation: "Centro Médico Integral",
     content:
-      "Hace tiempo que ya no me preocupo de agendar citas, ahora mis clientes pueden agendar su cita por si mismos.",
+      "La automatización de citas y el chatbot han mejorado significativamente la experiencia de mis pacientes y reducido mi carga administrativa.",
     image: "/images/testimonials/author-02.png",
-    star: 4,
+    star: 5,
   },
   {
     id: 3,
-    name: "William Smith",
-    designation: "Fundador @ Trorex",
+    name: "Dr. Carlos Rodríguez",
+    designation: "Consultorio Privado",
     content:
-      "Mis ventas aumentaron un 30% gracias a Curartech, ahora puedo ofrecer un servicio mas personalizado a mis clientes y enfocarme en lo que realmente importa, mi consulta medica.",
+      "El sistema de gestión de pacientes y la optimización de Google My Business han aumentado mi visibilidad y atraído más pacientes a mi consulta.",
     image: "/images/testimonials/author-03.png",
-    star: 4.5,
+    star: 5,
   },
 ];
 
@@ -39,7 +39,7 @@ const Testimonials = () => {
         <SectionTitle
           subtitle="Testimonios"
           title="Lo que dicen nuestros clientes"
-          paragraph="Nuestros clientes nos han dejado testimonios de su experiencia con nosotros."
+          paragraph="Conoce la experiencia de médicos que han transformado su consultorio con CurarTech."
           width="640px"
           center
         />
