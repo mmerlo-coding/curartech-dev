@@ -1,11 +1,13 @@
 import Image from "next/image";
 import SectionTitle from "../Common/SectionTitle";
 import featuresData from "./featuresData";
+import AnimatedBackground from "../Common/AnimatedBackground";
 
 const Features = () => {
   return (
-    <section className="pb-8 pt-20 dark:bg-dark lg:pb-[70px] lg:pt-[120px]">
-      <div className="container">
+    <section className="relative z-20 overflow-hidden pb-8 pt-20 dark:bg-dark lg:pb-[70px] lg:pt-[120px]">
+      <AnimatedBackground />
+      <div className="container relative">
         <div className="flex w-full flex-col gap-8 lg:flex-row">
           <div className="w-full lg:w-1/2">
             <SectionTitle

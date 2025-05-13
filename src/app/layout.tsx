@@ -37,8 +37,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html suppressHydrationWarning={true} className="!scroll-smooth" lang="es">
-      <body>
+    <html lang="es" className="!scroll-smooth">
+      <body suppressHydrationWarning={true}>
         <ThemeProvider
           attribute="class"
           enableSystem={false}

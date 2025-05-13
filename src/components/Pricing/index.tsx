@@ -1,6 +1,7 @@
 "use client";
 import SectionTitle from "../Common/SectionTitle";
 import PricingBox from "./PricingBox";
+import AnimatedBackground from "../Common/AnimatedBackground";
 
 const pricingData = [
   {
@@ -26,7 +27,8 @@ const Pricing = () => {
       id="pricing"
       className="relative z-20 overflow-hidden bg-white pb-12 pt-20 dark:bg-dark lg:pb-[90px] lg:pt-[120px]"
     >
-      <div className="container">
+      <AnimatedBackground />
+      <div className="container relative">
         <div className="flex min-h-[600px] flex-col items-center justify-center gap-8 lg:flex-row">
           <div className="flex w-full items-center lg:w-1/2">
             <SectionTitle

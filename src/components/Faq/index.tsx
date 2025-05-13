@@ -1,10 +1,12 @@
 import SectionTitle from "../Common/SectionTitle";
 import SingleFaq from "./SingleFaq";
+import AnimatedBackground from "../Common/AnimatedBackground";
 
 const Faq = () => {
   return (
     <section className="relative z-20 overflow-hidden bg-white pb-8 pt-20 dark:bg-dark lg:pb-[50px] lg:pt-[120px]">
-      <div className="container">
+      <AnimatedBackground />
+      <div className="container relative">
         <SectionTitle
           subtitle="FAQ"
           title="¿Tienes Dudas? Te Ayudamos"
@@ -16,31 +18,89 @@ const Faq = () => {
         <div className="-mx-4 mt-[60px] flex flex-wrap lg:mt-20">
           <div className="w-full px-4 lg:w-1/2">
             <SingleFaq
-              question="¿Cuanto tiempo demo la implementacion de su sistema de IA en mi pagina web?"
-              answer="Depende de si tu negocio necesita hacer un website o ya tienes uno. Si necesitas un website, el tiempo de implementacion puede variar entre 1-2 semanas. Si ya tienes un website, el tiempo de implementacion puede variar entre 3-5 dias."
+              question="¿Cuánto tiempo toma la implementación del sistema de IA en mi página web?"
+              answer="Depende de si ya cuentas con una página web.
+
+Si necesitas que creemos un sitio desde cero, la implementación puede tardar entre 1 y 2 semanas.
+
+Si ya tienes una página web activa, el tiempo de implementación es de aproximadamente 3 a 5 días hábiles."
+              isAlternate={false}
             />
             <SingleFaq
-              question="¿El bot puede responder preguntas en varios idiomas?"
-              answer="Si, el bot puede responder preguntas en varios idiomas, dependiendo de la configuracion de tu negocio, si el usuario escribe en ingles, el bot respondera en ingles, si el usuario escribe en español, el bot respondera en español."
+              question="¿Ofrecen otros servicios además del chatbot?"
+              answer="Sí. Además del chatbot, ofrecemos:
+
+Creación de páginas web
+
+Automatización de procesos (como email marketing)
+
+Gestión de reputación en Google My Business
+
+Servicio de calendario inteligente para agendamiento de citas, vinculado al bot y a WhatsApp
+
+Sistema centralizado de mensajería, donde puedes ver y responder en un solo lugar los mensajes recibidos por correo electrónico, WhatsApp, el bot, Instagram y Facebook."
+              isAlternate={true}
             />
             <SingleFaq
-              question="¿Tienen mas servicios aparte del chatbot?"
-              answer="Si, tenemos mas servicios aparte del chatbot, como por ejemplo, la creacion de paginas web, automatizaciones de procesos como email marketing, manejo de reputacion con Google My Business, etc."
+              question="¿Qué tan efectiva es la IA para impulsar mi negocio?"
+              answer="La inteligencia artificial personalizada puede transformar negocios en LATAM.
+Por ejemplo, un estudio en un banco de Brasil demostró:
+
+Aumento del 2,350% en interacciones
+
+Mejora del 19% en resolución de problemas
+
+Hasta un 30% de reducción de costos en atención al cliente."
+              isAlternate={false}
+            />
+            <SingleFaq
+              question="¿Puedo ver y responder todos los mensajes desde un solo lugar?"
+              answer="Sí. Contamos con un sistema centralizado de mensajería donde puedes:
+
+Ver y responder mensajes de WhatsApp, Instagram, Facebook, correo electrónico y el bot desde un único panel.
+Esto te permite mantener una comunicación más rápida, organizada y profesional con tus clientes."
+              isAlternate={true}
             />
           </div>
 
           <div className="w-full px-4 lg:w-1/2">
             <SingleFaq
-              question="¿Que pasa si no tengo pagina web para mi negocio?"
-              answer="No hay problema, podemos crear una pagina web para tu negocio, te ofrecemos un servicio de creacion de pagina web, con la compra del plan PREMIUM. Tambien podemos integrar nuestras soluciones de IA directamente con tu Whatsapp para que todo el proceso se maneje directamente desde ahi. "
+              question="¿El bot puede responder preguntas en varios idiomas?"
+              answer="Sí, el bot puede responder automáticamente en varios idiomas.
+Se adapta al idioma que utiliza el usuario:
+
+Si el usuario escribe en inglés, el bot responderá en inglés.
+
+Si escribe en español, responderá en español.
+Otros idiomas también pueden configurarse según tus necesidades."
+              isAlternate={true}
             />
             <SingleFaq
-              question="¿Que tan efectivo es el uso de IA para impulsar mi negocio?"
-              answer="Investigaciones sugieren que los negocio que usa IA, especialmente los entrenados con información específica de la empresa, pueden transformar los negocios en LATAM. Por ejemplo, un estudio en un banco brasileño mostró que aumentaron las interacciones en un 2,350% y la resolución de problemas en un 19%, con una satisfacción del cliente de 3.9/5. También se proyecta una reducción de costos de hasta 30% en servicio al cliente."
+              question="¿Qué pasa si no tengo página web para mi negocio?"
+              answer="No hay problema.
+Con la compra del plan PREMIUM, te ofrecemos el servicio completo de creación de una página web.
+Además, si prefieres, podemos integrar la solución de IA directamente con tu WhatsApp, para que todo el proceso se gestione desde allí."
+              isAlternate={false}
             />
             <SingleFaq
-              question="¿Como pueden mis pacientes agendar automaticamente una consulta?"
-              answer="Con nuestro sistema de agendamientos automaticos, tus pacientes pueden agendar una consulta por si mismos, sin necesidad de llamar o esperar a que un agente este disponible. Simplemente deben escribirle al bot desde tu pagina web, o enviarte un mensaje a whatsapp, y el bot se encarga de agendar la cita desde ahi."
+              question="¿Cómo pueden mis pacientes agendar automáticamente una consulta?"
+              answer="Con nuestro sistema de agendamiento automático, tus pacientes pueden reservar citas por sí mismos, sin necesidad de llamar o esperar a un agente.
+Pueden hacerlo desde:
+
+Un mensaje al bot en tu página web
+
+Un mensaje por WhatsApp
+Además, ofrecemos un calendario vinculado al bot y a WhatsApp para que el agendamiento se gestione de forma organizada y automática."
+              isAlternate={true}
+            />
+            <SingleFaq
+              question="¿Qué necesito para comenzar con su sistema de IA?"
+              answer="Solo debes llenar nuestro formulario online después de realizar el pago del servicio.
+
+Si necesitas más información antes de comprar, puedes agendar una llamada con nuestro equipo, donde resolveremos todas tus dudas y te mostraremos cómo la IA puede transformar tu negocio.
+
+¡Todo el proceso es simple, rápido y sin complicaciones técnicas!"
+              isAlternate={false}
             />
           </div>
         </div>

@@ -1,13 +1,15 @@
 import Image from "next/image";
 import Link from "next/link";
+import AnimatedBackground from "../Common/AnimatedBackground";
 
 const About = () => {
   return (
     <section
       id="about"
-      className="bg-gray-1 pb-8 pt-20 dark:bg-dark-2 lg:pb-[70px] lg:pt-[120px]"
+      className="relative z-20 overflow-hidden bg-gray-1 pb-8 pt-20 dark:bg-dark-2 lg:pb-[70px] lg:pt-[120px]"
     >
-      <div className="container">
+      <AnimatedBackground />
+      <div className="container relative">
         <div className="wow fadeInUp" data-wow-delay=".2s">
           <div className="-mx-4 flex flex-wrap items-center">
             <div className="w-full px-4 lg:w-1/2">
