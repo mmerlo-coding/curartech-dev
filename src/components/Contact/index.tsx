@@ -4,7 +4,7 @@ const Contact = () => {
   return (
     <section
       id="contact"
-      className="container relative h-[1500px] md:h-[1000px]"
+      className="container relative h-[1500px] md:h-[1000px] pt-20"
     >
       <SectionTitle
         subtitle="Contacto"

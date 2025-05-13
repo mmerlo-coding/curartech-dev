@@ -34,27 +34,25 @@ const Header = () => {
       <header
         className={`ud-header left-0 top-0 z-40 flex w-full items-center ${
           sticky
-            ? "shadow-nav fixed z-[999] bg-primary/80 backdrop-blur-[5px] dark:border-dark-3/20 dark:bg-dark/10"
+            ? "shadow-nav dark:border-dark-3/20 fixed z-[999] bg-primary/80 backdrop-blur-[5px] dark:bg-dark/10"
             : "absolute bg-transparent"
         }`}
       >
         <div className="container">
           <div className="relative flex flex-row items-center justify-between p-2">
-            <div>
-              <Link href="/" className="navbar-logo block w-full">
-                <Image
-                  src={"/images/logo/Curartech_logo_removebg-preview.png"}
-                  alt="curartech - company logo"
-                  width={160}
-                  height={100}
-                  className="header-logo"
-                />
-              </Link>
-            </div>
+            <Link href="/" className="navbar-logo block w-full">
+              <Image
+                src={"/images/logo/Curartech_logo_removebg-preview.png"}
+                alt="curartech - company logo"
+                width={120}
+                height={100}
+                className="header-logo"
+              />
+            </Link>
             <div className="flex items-center justify-between gap-2 lg:pr-0">
               <Link
                 href="#contact"
-                className="flex items-center gap-2 rounded-md bg-white/[0.12] p-4 text-base font-medium text-white transition duration-300 ease-in-out hover:bg-white hover:text-dark"
+                className="flex w-[150px] items-center gap-2 rounded-md bg-white/[0.12] p-4 text-base font-medium text-white transition duration-300 ease-in-out hover:bg-white hover:text-dark md:w-[180px]"
               >
                 <span>Agendar Demo</span>
                 <FiCalendar size={20} className="hidden md:block" />

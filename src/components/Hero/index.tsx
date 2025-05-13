@@ -18,11 +18,13 @@ const Hero = () => {
                 data-wow-delay=".2s"
               >
                 <h1 className="mb-6 text-3xl font-bold leading-snug text-white sm:text-4xl sm:leading-snug lg:text-5xl lg:leading-[1.2]">
-                  Automatiza tu Consultorio Médico con IA: Ahorra Tiempo, Aumenta Pacientes y Mejora tu Servicio.
+                  Automatiza tu Consultorio Médico con IA: Ahorra Tiempo,
+                  Aumenta Pacientes y Mejora tu Servicio.
                 </h1>
                 <p className="mx-auto mb-9 max-w-[600px] text-base text-white sm:leading-[1.44]">
-                  Automatiza, atrae más clientes potenciales y gestiona tu
-                  negocio como nunca antes con nuestras soluciones de IA.
+                  Genera como minimo 5 a 15 consultas extras cada mes usando
+                  nuestro sistema de marketing automatizado con inteligencia
+                  artificial.
                 </p>
                 <ul className="mb-10 flex flex-wrap items-center justify-center gap-5">
                   <li>
@@ -30,7 +32,8 @@ const Hero = () => {
                       href="#contact"
                       className="inline-flex items-center justify-center rounded-md bg-white px-7 py-[14px] text-center text-base font-medium text-dark shadow-1 transition duration-300 ease-in-out hover:bg-gray-2"
                     >
-                      ¡Comienza a Transformar tu Consultorio Hoy! Agenda una Demo Gratuita.
+                      ¡Comienza a Transformar tu Consultorio Hoy! Agenda una
+                      Demo Gratuita.
                     </Link>
                   </li>
                   <li>

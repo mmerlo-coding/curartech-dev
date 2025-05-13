@@ -21,22 +21,22 @@ const Faq = () => {
               question="¿Cuánto tiempo toma la implementación del sistema de IA en mi página web?"
               answer="Depende de si ya cuentas con una página web.
 
-Si necesitas que creemos un sitio desde cero, la implementación puede tardar entre 1 y 2 semanas.
+Si necesitas que creemos un sitio desde cero, la implementación puede tardar entre 3 - 7 dias.
 
-Si ya tienes una página web activa, el tiempo de implementación es de aproximadamente 3 a 5 días hábiles."
+Si ya tienes una página web activa, el tiempo de implementación es de aproximadamente 1 - 2 días hábiles."
               isAlternate={false}
             />
             <SingleFaq
               question="¿Ofrecen otros servicios además del chatbot?"
               answer="Sí. Además del chatbot, ofrecemos:
 
-Creación de páginas web
+Creación de páginas web,
 
-Automatización de procesos (como email marketing)
+Automatización de procesos (como email marketing),
 
-Gestión de reputación en Google My Business
+Gestión de reputación en Google My Business,
 
-Servicio de calendario inteligente para agendamiento de citas, vinculado al bot y a WhatsApp
+Servicio de calendario inteligente para agendamiento de citas, vinculado al bot y a WhatsApp,
 
 Sistema centralizado de mensajería, donde puedes ver y responder en un solo lugar los mensajes recibidos por correo electrónico, WhatsApp, el bot, Instagram y Facebook."
               isAlternate={true}
@@ -76,10 +76,8 @@ Otros idiomas también pueden configurarse según tus necesidades."
               isAlternate={true}
             />
             <SingleFaq
-              question="¿Qué pasa si no tengo página web para mi negocio?"
-              answer="No hay problema.
-Con la compra del plan PREMIUM, te ofrecemos el servicio completo de creación de una página web.
-Además, si prefieres, podemos integrar la solución de IA directamente con tu WhatsApp, para que todo el proceso se gestione desde allí."
+              question="¿Cuales resultados puedo esperar en los primeros 3 meses?"
+              answer="En los primeros 3 meses puedes esperar un incremento considerable del trafico que genera tu pagina web y mas ventas, debido a las mejoras que haremos a tu sitio web, las campañas de publicidad pagas que hacemos en Google, Facebook e Instagram, y la optimizacion de tu perfil de Google My Business."
               isAlternate={false}
             />
             <SingleFaq
@@ -87,17 +85,14 @@ Además, si prefieres, podemos integrar la solución de IA directamente con tu W
               answer="Con nuestro sistema de agendamiento automático, tus pacientes pueden reservar citas por sí mismos, sin necesidad de llamar o esperar a un agente.
 Pueden hacerlo desde:
 
-Un mensaje al bot en tu página web
+Un mensaje al bot en tu página web o
 
-Un mensaje por WhatsApp
-Además, ofrecemos un calendario vinculado al bot y a WhatsApp para que el agendamiento se gestione de forma organizada y automática."
+un mensaje por WhatsApp directamente"
               isAlternate={true}
             />
             <SingleFaq
               question="¿Qué necesito para comenzar con su sistema de IA?"
-              answer="Solo debes llenar nuestro formulario online después de realizar el pago del servicio.
-
-Si necesitas más información antes de comprar, puedes agendar una llamada con nuestro equipo, donde resolveremos todas tus dudas y te mostraremos cómo la IA puede transformar tu negocio.
+              answer="Solo debes agendar una llamada con nuestro equipo, donde entenderemos mejor los problemas de tu negocio, resolveremos todas tus dudas y te mostraremos cómo la IA puede transformar tu negocio.
 
 ¡Todo el proceso es simple, rápido y sin complicaciones técnicas!"
               isAlternate={false}

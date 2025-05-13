@@ -25,7 +25,7 @@ const PricingBox = ({ product }: { product: Price }) => {
   return (
     <div className="w-full px-4 md:w-full lg:w-full">
       <div
-        className="relative z-10 mb-10 h-[660px] overflow-hidden rounded-xl bg-white px-8 py-10 shadow-[0px_0px_40px_0px_rgba(0,0,0,0.08)] dark:bg-dark-2 sm:p-12 lg:px-6 lg:py-10 xl:p-14"
+        className="relative z-10 mb-10 h-fit overflow-hidden rounded-xl bg-white px-8 py-10 shadow-[0px_0px_40px_0px_rgba(0,0,0,0.08)] dark:bg-dark-2 sm:p-12 lg:px-6 lg:py-10 xl:p-14"
         data-wow-delay=".1s"
       >
         {product.nickname === "Premium" && (
@@ -37,15 +37,16 @@ const PricingBox = ({ product }: { product: Price }) => {
           {product.name}
         </span>
         <h2 className="mb-11 text-4xl font-semibold text-dark dark:text-white xl:text-[42px] xl:leading-[1.21]">
-          <span className="text-xl font-medium">$ </span>
           <span className="-ml-1 -tracking-[2px]">
-            {(product.unit_amount / 100).toLocaleString("en-US", {
-              currency: "USD",
+            {product.unit_amount.toLocaleString("es-CO", {
+              currency: "COP",
+              style: "currency",
+              minimumFractionDigits: 0,
             })}
           </span>
           <span className="text-base font-normal text-body-color dark:text-dark-6">
             {" "}
-            Por mes
+            / mes
           </span>
         </h2>
 

@@ -17,9 +17,9 @@ export default function Home() {
       <Features />
       <About />
       <CallToAction />
-      <Pricing />
       <Testimonials />
       <Faq />
+      <Pricing />
       <Contact />
       <Script
         src="https://widgets.leadconnectorhq.com/loader.js"

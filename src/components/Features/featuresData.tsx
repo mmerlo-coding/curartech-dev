@@ -1,22 +1,14 @@
 import { Feature } from "@/types/feature";
+import { FiInbox } from "react-icons/fi";
+import { RiRobot2Line } from "react-icons/ri";
+import { FiCalendar } from "react-icons/fi";
+import { FaSearch } from "react-icons/fa";
+import { CgWebsite } from "react-icons/cg";
 
 const featuresData: Feature[] = [
   {
     id: 1,
-    icon: (
-      <svg
-        width="36"
-        height="36"
-        viewBox="0 0 36 36"
-        fill="none"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <path
-          d="M30.5998 1.01245H5.39981C2.98105 1.01245 0.956055 2.9812 0.956055 5.4562V30.6562C0.956055 33.075 2.9248 35.0437 5.39981 35.0437H30.5998C33.0186 35.0437 34.9873 33.075 34.9873 30.6562V5.39995C34.9873 2.9812 33.0186 1.01245 30.5998 1.01245ZM5.39981 3.48745H30.5998C31.6123 3.48745 32.4561 4.3312 32.4561 5.39995V11.1937H3.4873V5.39995C3.4873 4.38745 4.38731 3.48745 5.39981 3.48745ZM3.4873 30.6V13.725H23.0623V32.5125H5.39981C4.38731 32.5125 3.4873 31.6125 3.4873 30.6ZM30.5998 32.5125H25.5373V13.725H32.4561V30.6C32.5123 31.6125 31.6123 32.5125 30.5998 32.5125Z"
-          fill="white"
-        />
-      </svg>
-    ),
+    icon: <RiRobot2Line size={26} />,
     title: "Chatbot con IA",
     paragraph:
       "Atiende consultas y agenda citas automáticamente, disponible 24/7 para tus pacientes.",
@@ -24,20 +16,7 @@ const featuresData: Feature[] = [
   },
   {
     id: 2,
-    icon: (
-      <svg
-        width="36"
-        height="36"
-        viewBox="0 0 36 36"
-        fill="none"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <path
-          d="M30.5998 1.01245H5.39981C2.98105 1.01245 0.956055 2.9812 0.956055 5.4562V30.6562C0.956055 33.075 2.9248 35.0437 5.39981 35.0437H30.5998C33.0186 35.0437 34.9873 33.075 34.9873 30.6562V5.39995C34.9873 2.9812 33.0186 1.01245 30.5998 1.01245ZM5.39981 3.48745H30.5998C31.6123 3.48745 32.4561 4.3312 32.4561 5.39995V11.1937H3.4873V5.39995C3.4873 4.38745 4.38731 3.48745 5.39981 3.48745ZM3.4873 30.6V13.725H23.0623V32.5125H5.39981C4.38731 32.5125 3.4873 31.6125 3.4873 30.6ZM30.5998 32.5125H25.5373V13.725H32.4561V30.6C32.5123 31.6125 31.6123 32.5125 30.5998 32.5125Z"
-          fill="white"
-        />
-      </svg>
-    ),
+    icon: <FiInbox size={26} />,
     title: "Inbox Universal",
     paragraph:
       "Centraliza mensajes de WhatsApp, Email, Facebook e Instagram en un solo lugar para una gestión eficiente.",
@@ -45,20 +24,7 @@ const featuresData: Feature[] = [
   },
   {
     id: 3,
-    icon: (
-      <svg
-        width="36"
-        height="36"
-        viewBox="0 0 36 36"
-        fill="none"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <path
-          d="M30.5998 1.01245H5.39981C2.98105 1.01245 0.956055 2.9812 0.956055 5.4562V30.6562C0.956055 33.075 2.9248 35.0437 5.39981 35.0437H30.5998C33.0186 35.0437 34.9873 33.075 34.9873 30.6562V5.39995C34.9873 2.9812 33.0186 1.01245 30.5998 1.01245ZM5.39981 3.48745H30.5998C31.6123 3.48745 32.4561 4.3312 32.4561 5.39995V11.1937H3.4873V5.39995C3.4873 4.38745 4.38731 3.48745 5.39981 3.48745ZM3.4873 30.6V13.725H23.0623V32.5125H5.39981C4.38731 32.5125 3.4873 31.6125 3.4873 30.6ZM30.5998 32.5125H25.5373V13.725H32.4561V30.6C32.5123 31.6125 31.6123 32.5125 30.5998 32.5125Z"
-          fill="white"
-        />
-      </svg>
-    ),
+    icon: <FiCalendar size={26} />,
     title: "Calendario Integrado",
     paragraph:
       "Sincronización con Google Calendar y Outlook para una gestión eficiente de citas.",
@@ -66,20 +32,7 @@ const featuresData: Feature[] = [
   },
   {
     id: 4,
-    icon: (
-      <svg
-        width="36"
-        height="36"
-        viewBox="0 0 36 36"
-        fill="none"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <path
-          d="M31.0863 20.0051H23.9425C22.03 20.0051 20.455 21.5801 20.455 23.4926V30.6364C20.455 32.5489 22.03 34.1239 23.9425 34.1239H31.0863C32.9988 34.1239 34.5738 32.5489 34.5738 30.6364V23.5489C34.5738 21.5801 32.9988 20.0051 31.0863 20.0051ZM32.0988 30.6926C32.0988 31.2551 31.6488 31.7051 31.0863 31.7051H23.9425C23.38 31.7051 22.93 31.2551 22.93 30.6926V23.5489C22.93 22.9864 23.38 22.5364 23.9425 22.5364H31.0863C31.6488 22.5364 32.0988 22.9864 32.0988 23.5489V30.6926Z"
-          fill="white"
-        />
-      </svg>
-    ),
+    icon: <FaSearch size={26} />,
     title: "Optimización SEO",
     paragraph:
       "Mejora tu posicionamiento en buscadores y aumenta tu visibilidad online.",
@@ -87,20 +40,7 @@ const featuresData: Feature[] = [
   },
   {
     id: 5,
-    icon: (
-      <svg
-        width="35"
-        height="35"
-        viewBox="0 0 52 52"
-        fill="none"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <path
-          d="M44.9313 11.7H38.9188C40.5438 10.9687 41.7626 9.99374 42.2501 8.69374C42.9001 6.98749 42.2501 5.19999 40.3001 3.33124C38.1876 1.29999 35.9938 0.568738 33.8001 1.13749C29.9813 2.11249 27.4626 7.06874 26.2438 9.99374C25.1063 7.06874 22.5876 2.11249 18.6876 1.13749C16.4938 0.568738 14.3001 1.29999 12.1876 3.33124C10.2376 5.19999 9.5876 6.98749 10.2376 8.69374C10.7251 9.99374 12.0251 10.9687 13.5688 11.7H7.06885C5.0376 11.7 3.4126 13.325 3.4126 15.3562V21.5312C3.4126 23.5625 5.0376 25.1875 7.06885 25.1875H7.71885V46.2312C7.71885 48.8312 9.83135 51.025 12.5126 51.025H40.1376C42.7376 51.025 44.9313 48.9125 44.9313 46.2312V25.1875C46.9626 25.1875 48.5876 23.5625 48.5876 21.5312V15.3562C48.5063 13.325 46.8813 11.7 44.9313 11.7Z"
-          fill="white"
-        />
-      </svg>
-    ),
+    icon: <CgWebsite size={26} />,
     title: "Sitio Web Profesional",
     paragraph:
       "Diseñado para convertir visitantes en pacientes, con un enfoque en la experiencia del usuario.",

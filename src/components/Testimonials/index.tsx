@@ -14,7 +14,7 @@ const testimonialData: Testimonial[] = [
   },
   {
     id: 2,
-    name: "Dra. María González",
+    name: "Dr. Alex González",
     designation: "Centro Médico Integral",
     content:
       "La automatización de citas y el chatbot han mejorado significativamente la experiencia de mis pacientes y reducido mi carga administrativa.",

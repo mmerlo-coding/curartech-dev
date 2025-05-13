@@ -6,17 +6,29 @@ import AnimatedBackground from "../Common/AnimatedBackground";
 const pricingData = [
   {
     id: 1,
-    name: "PLAN COMPLETO",
-    price: 97,
-    unit_amount: 9700,
+    name: "PLAN BASICO",
+    price: 429000,
+    unit_amount: 429000,
+    nickname: "basic",
+    offers: [
+      "Chatbot personalizado con IA entrenada para tu negocio, integrable con WhatsApp y Email",
+      "Calendario automatizado para manejo de consultas y citas",
+      "Website profesional de hasta 3 paginas, con SEO incluido, usando una de nuestras plantillas probadas",
+      "Formulario de contacto para generar clientes potenciales",
+      "Automatizaciones de Email Marketing",
+    ],
+  },
+  {
+    id: 2,
+    name: "PLAN PRO AVANZADO",
+    price: 1200000,
+    unit_amount: 1200000,
     nickname: "Premium",
     offers: [
-      "Chatbot personalizado para tu negocio, con IA y automatizaciones, integrable con WhatsApp y Email",
-      "Calendario de citas y manejo de consultas y agendamientos",
-      "CRM para gestionar tus leads y clientes",
-      "App movil con inbox universal",
-      "Optimizacion de Google my business para mejor visibilidad y posicionamiento en buscadores",
-      "Desarrollo de un website personalizado para tu negocio",
+      "Todo lo incluido en el plan basico",
+      "App movil con inbox universal, manejo de citas y lista de clientes",
+      "Optimizacion y automatizacion de reseñas de Google my business para mejor posicionamiento en buscadores",
+      "Manejo de campañas de publicidad en Google o Facebook e Instagram (Se recomienda presupuesto de 1 millon de pesos mensuales minimo)",
     ],
   },
 ];
@@ -29,7 +41,7 @@ const Pricing = () => {
     >
       <AnimatedBackground />
       <div className="container relative">
-        <div className="flex min-h-[600px] flex-col items-center justify-center gap-8 lg:flex-row">
+        <div className="flex min-h-[600px] flex-col items-center justify-center gap-8">
           <div className="flex w-full items-center lg:w-1/2">
             <SectionTitle
               subtitle="Precios"
@@ -37,12 +49,10 @@ const Pricing = () => {
               paragraph="Nuestros precios son muy competitivos y se ajustan a las necesidades de tu negocio."
             />
           </div>
-          <div className="flex w-full items-center justify-end lg:w-1/2">
-            <div className="w-full">
-              {pricingData.map((product, i) => (
-                <PricingBox key={i} product={product} />
-              ))}
-            </div>
+          <div className="flex w-full  flex-col items-center justify-end md:flex-row">
+            {pricingData.map((product, i) => (
+              <PricingBox key={i} product={product} />
+            ))}
           </div>
         </div>
       </div>

@@ -2,6 +2,7 @@ import Image from "next/image";
 import SectionTitle from "../Common/SectionTitle";
 import featuresData from "./featuresData";
 import AnimatedBackground from "../Common/AnimatedBackground";
+import Link from "next/link";
 
 const Features = () => {
   return (
@@ -18,30 +19,54 @@ const Features = () => {
             <ul className="mt-8 list-none space-y-2 text-left">
               <li className="flex items-start gap-2">
                 <span className="mt-1.5 h-2 w-2 flex-shrink-0 rounded-full bg-primary"></span>
-                <span>Automatización Inteligente: Chatbots que responden consultas y agendan citas 24/7.</span>
+                <span>
+                  Automatización Inteligente: Chatbots que responden consultas y
+                  agendan citas 24/7.
+                </span>
               </li>
               <li className="flex items-start gap-2">
                 <span className="mt-1.5 h-2 w-2 flex-shrink-0 rounded-full bg-primary"></span>
-                <span>Gestión Eficiente: CRM y calendario integrados para un control total de tu consultorio.</span>
+                <span>
+                  Gestión Eficiente: CRM y calendario integrados para un control
+                  total de tu consultorio.
+                </span>
               </li>
               <li className="flex items-start gap-2">
                 <span className="mt-1.5 h-2 w-2 flex-shrink-0 rounded-full bg-primary"></span>
-                <span>Mayor Visibilidad: Optimización de Google My Business para atraer más pacientes.</span>
+                <span>
+                  Mayor Visibilidad: Optimización de Google My Business para
+                  atraer más pacientes.
+                </span>
               </li>
               <li className="flex items-start gap-2">
                 <span className="mt-1.5 h-2 w-2 flex-shrink-0 rounded-full bg-primary"></span>
-                <span>Sitio Web Profesional: Diseñado para convertir visitantes en pacientes.</span>
+                <span>
+                  Sitio Web Profesional: Diseñado para convertir visitantes en
+                  pacientes.
+                </span>
+              </li>
+              <li className="flex items-start gap-2">
+                <span className="mt-1.5 h-2 w-2 flex-shrink-0 rounded-full bg-primary"></span>
+                <span>
+                  Campañas de Marketing: Google, Facebook e Instagram para
+                  generar más consultas.
+                </span>
               </li>
             </ul>
           </div>
           <div className="w-full lg:w-1/2">
             <div className="relative h-[400px] w-full overflow-hidden rounded-lg">
-              <Image
-                src="/images/about/chatbot-demo.png"
-                alt="CurarTech Chatbot Demo"
-                fill
-                className="object-contain transition-transform duration-300 ease-in-out hover:scale-110"
-              />
+              <Link
+                href="https://app.curartech.com/v2/preview/RbKC5kmeBHSXwbuzT1ZE"
+                target="_blank"
+              >
+                <Image
+                  src="/images/about/chatbot-demo.png"
+                  alt="CurarTech Chatbot Demo"
+                  fill
+                  className="cursor-pointer object-contain transition-transform duration-300 ease-in-out hover:scale-110"
+                />
+              </Link>
             </div>
           </div>
         </div>
@@ -53,12 +78,15 @@ const Features = () => {
         <div className="absolute inset-0 -skew-y-6 bg-gradient-to-r from-primary to-primary/80">
           <div className="absolute inset-0 bg-[url('/images/patterns/diagonal-lines.svg')] opacity-10"></div>
         </div>
-        
+
         {/* Content */}
         <div className="container relative mx-auto">
           <div className="grid grid-cols-1 gap-8 px-4 py-16 md:grid-cols-2 lg:grid-cols-5">
             {featuresData.map((feature, i) => (
-              <div key={i} className="flex flex-col items-center text-center text-white">
+              <div
+                key={i}
+                className="flex flex-col items-center text-center text-white"
+              >
                 <div className="mb-4 flex h-16 w-16 items-center justify-center rounded-full bg-white/10">
                   {feature.icon}
                 </div>
