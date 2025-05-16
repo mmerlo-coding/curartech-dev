@@ -13,7 +13,7 @@ const Features = () => {
           <div className="w-full lg:w-1/2">
             <SectionTitle
               subtitle="Características"
-              title="¿Por qué elegir CurarTech?"
+              title="¿Por qué elegir nuestra agencia de marketing digital con IA?"
               paragraph=""
             />
             <ul className="mt-8 list-none space-y-2 text-left">

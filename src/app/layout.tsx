@@ -8,25 +8,19 @@ import ToasterContext from "./api/contex/ToasetContex";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Chatbot con IA para consultorios medicos",
+  title: "Marketing Digital con IA",
   description:
-    "Chatbot con IA para consultorios medicos en Curartech, la plataforma de automatización para consultas médicas. Gestiona calendarios, chats, citas, pacientes, etc.",
+    "Agencia de marketing digital con IA para consultorios medicos, genera minimo 10 nuevas consultas este mes!",
   keywords: [
     "curartech",
-    "Soluciones automatizadas para consultorios médicos",
-    "marketing para consultorios médicos",
-    "calendarios para doctores",
-    "chatbot de IA para doctores",
-    "agendamiento de consultas automatizadas",
-    "optimizar de Google my business para mi negocio",
-    "automatización de citas para consultorios médicos",
-    "automatización de citas para consultorios odontologicos",
-    "automatización de citas para consultorios quiroprácticos",
+    "Agencia de marketing digital",
+    "Agencia de marketing para consultorios medicos",
+    "Chatbot con IA para consultorios medicos",
   ],
   openGraph: {
-    title: "Chatbot con IA para consultorios medicos",
+    title: "Marketing Digital con IA",
     description:
-      "Chatbot con IA para consultorios medicos con Curartech, la plataforma de automatización para consultas médicas. Gestiona calendarios, chats, citas, pacientes, etc.",
+      "Agencia de marketing digital con IA para consultorios medicos, genera minimo 10 nuevas consultas este mes!",
     siteName: "Curartech",
   },
 };
