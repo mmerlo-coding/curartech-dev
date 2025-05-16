@@ -6,6 +6,7 @@ import "../styles/index.css";
 import "../styles/prism-vsc-dark-plus.css";
 import ToasterContext from "./api/contex/ToasetContex";
 import { Metadata } from "next";
+import { GoogleTagManager } from '@next/third-parties/google'
 
 export const metadata: Metadata = {
   title: "Marketing Digital con IA",
@@ -32,6 +33,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="es" className="!scroll-smooth">
+      <GoogleTagManager gtmId="AW-17059503490" />
       <body suppressHydrationWarning={true}>
         <ThemeProvider
           attribute="class"

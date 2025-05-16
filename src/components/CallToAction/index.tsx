@@ -40,7 +40,7 @@ const CallToAction = () => {
           ))}
         </div>
         <Link
-          href="#contact"
+          href="/agendar"
           className="flex w-fit items-center gap-2 rounded-md bg-white px-6 py-[14px] text-base font-medium text-dark transition duration-300 ease-in-out hover:bg-white/[0.12] hover:text-white"
         >
           Empieza a Crecer – Agenda tu Demo hoy!

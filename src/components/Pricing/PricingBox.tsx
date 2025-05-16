@@ -60,7 +60,7 @@ const PricingBox = ({ product }: { product: Price }) => {
             ))}
           </div>
           <Link
-            href="#contact"
+            href="/agendar"
             className="inline-block rounded-md bg-primary px-7 py-3 text-center text-base font-medium text-white transition duration-300 hover:bg-primary/90"
           >
             Agendar demo ya!

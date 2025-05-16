@@ -51,7 +51,7 @@ const Header = () => {
             </Link>
             <div className="flex items-center justify-between gap-2 lg:pr-0">
               <Link
-                href="#contact"
+                href="/agendar"
                 className="flex w-[150px] items-center gap-2 rounded-md bg-white/[0.12] p-4 text-base font-medium text-white transition duration-300 ease-in-out hover:bg-white hover:text-dark md:w-[180px]"
               >
                 <span>Agendar Demo</span>

@@ -1,10 +1,19 @@
+"use client";
+import { useEffect } from "react";
 import SectionTitle from "../Common/SectionTitle";
+import { sendGTMEvent } from "@next/third-parties/google";
 
 const Contact = () => {
+  useEffect(() => {
+    sendGTMEvent({
+      event: "conversion",
+      send_to: "AW-17059503490/2b2qCOvc1MMaEIK7zcY_",
+    });
+  }, []);
   return (
     <section
       id="contact"
-      className="container relative h-[1500px] md:h-[1000px] pt-20"
+      className="container relative h-[1500px] pt-20 md:h-[1000px]"
     >
       <SectionTitle
         subtitle="Contacto"
