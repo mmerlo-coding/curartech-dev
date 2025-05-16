@@ -1,15 +1,6 @@
-"use client";
-import { useEffect } from "react";
 import SectionTitle from "../Common/SectionTitle";
-import { sendGAEvent } from "@next/third-parties/google";
 
 const Contact = () => {
-  useEffect(() => {
-    sendGAEvent("event", "conversion", {
-      send_to: "AW-17059503490/2b2qCOvc1MMaEIK7zcY_",
-      event_callback: "callback",
-    });
-  }, []);
   return (
     <section
       id="contact"
