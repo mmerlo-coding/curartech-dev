@@ -6,7 +6,7 @@ import "../styles/index.css";
 import "../styles/prism-vsc-dark-plus.css";
 import ToasterContext from "./api/contex/ToasetContex";
 import { Metadata } from "next";
-import { GoogleAnalytics } from "@next/third-parties/google";
+import { GoogleTagManager } from "@next/third-parties/google";
 
 export const metadata: Metadata = {
   title: "Marketing Digital con IA",
@@ -32,12 +32,13 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="es" className="!scroll-smooth">
-      <body suppressHydrationWarning={true}>
+    <html lang="es" className="!scroll-smooth" suppressHydrationWarning>
+      <body suppressHydrationWarning>
         <ThemeProvider
           attribute="class"
           enableSystem={false}
           defaultTheme="light"
+          disableTransitionOnChange
         >
           <ToasterContext />
           <Header />
@@ -45,7 +46,7 @@ export default function RootLayout({
           <Footer />
           <ScrollToTop />
         </ThemeProvider>
-        <GoogleAnalytics gaId="AW-17059503490" />
+        <GoogleTagManager gtmId="AW-17059503490" />
       </body>
     </html>
   );

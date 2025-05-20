@@ -1,20 +1,29 @@
+'use client';
+
 import React from "react";
-import Image from "next/image";
 
 const CircleSvg = () => {
   return (
     <div className="w-full px-4">
       <div
-        className="wow fadeInUp relative z-10 mx-auto max-w-[845px]"
+        className="wow fadeInUp relative z-10 mx-auto max-w-[1000px]"
         data-wow-delay=".25s"
       >
         <div className="mt-8">
-          <Image
-            src="/images/about/chatbot-demo.png"
-            alt="curartech - chatbot demo"
+          <video
+            src="/images/hero/frontpagevideo1.mp4"
+            autoPlay
+            loop
+            muted
+            playsInline
+            preload="auto"
+            poster="/images/hero/hero-image.jpg"
             className="mx-auto max-w-full rounded-t-xl rounded-tr-xl"
-            width={845}
-            height={316}
+            style={{ width: '100%', height: 'auto' }}
+            onError={(e) => {
+              console.error('Error loading video:', e);
+              // You could add a fallback UI here if needed
+            }}
           />
         </div>
         <div className="absolute -left-9 bottom-0 z-[-1]">
