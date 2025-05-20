@@ -13,7 +13,7 @@ const Features = () => {
           <div className="w-full lg:w-1/2">
             <SectionTitle
               subtitle="Características"
-              title="¿Por qué elegir nuestra agencia de marketing digital con IA?"
+              title="¿Por qué elegir nuestro sistema automatizado con IA?"
               paragraph=""
             />
             <ul className="mt-8 list-none space-y-2 text-left">
@@ -48,8 +48,7 @@ const Features = () => {
               <li className="flex items-start gap-2">
                 <span className="mt-1.5 h-2 w-2 flex-shrink-0 rounded-full bg-primary"></span>
                 <span>
-                  Campañas de Marketing: Google, Facebook e Instagram para
-                  generar más consultas.
+                  Campañas de Marketing con Google ads para generar más consultas y visitas a tu website.
                 </span>
               </li>
             </ul>

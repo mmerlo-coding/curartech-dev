@@ -23,7 +23,7 @@ const Hero = () => {
                 </h1>
                 <p className="mx-auto mb-9 max-w-[600px] text-base text-white sm:leading-[1.44]">
                   Genera como minimo 5 a 15 consultas extras cada mes usando
-                  nuestra agencia de marketing digital con IA.
+                  nuestro sistema 100% automatizado con IA.
                 </p>
                 <ul className="mb-10 flex flex-wrap items-center justify-center gap-5">
                   <li>

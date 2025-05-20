@@ -9,19 +9,20 @@ import { Metadata } from "next";
 import { GoogleTagManager } from "@next/third-parties/google";
 
 export const metadata: Metadata = {
-  title: "Marketing Digital con IA",
+  title: "Automatiza tu consultorio medico con IA",
   description:
-    "Agencia de marketing digital con IA para consultorios medicos, genera minimo 10 nuevas consultas este mes!",
+    "IA para consultorios medicos, genera al menos 10 consultas nuevas este mes!",
   keywords: [
     "curartech",
-    "Agencia de marketing digital",
-    "Agencia de marketing para consultorios medicos",
+    "Calendarios automatico para consultorios",
+    "Sistema automatico con IA para consultorios medicos",
     "Chatbot con IA para consultorios medicos",
+    "Asistente virtual para consultorios medicos",
   ],
   openGraph: {
-    title: "Marketing Digital con IA",
+    title: "Automatiza tu consultorio medico con IA",
     description:
-      "Agencia de marketing digital con IA para consultorios medicos, genera minimo 10 nuevas consultas este mes!",
+      "IA para consultorios medicos, genera al menos 10 consultas nuevas este mes!",
     siteName: "Curartech",
   },
 };
